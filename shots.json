@@ -1,5 +1,30 @@
 [
-  { "file": "1-checklist.jpg", "path": "/", "viewport": { "width": 1280, "height": 800 } },
-  { "file": "2-silver.jpg", "path": "/", "grade": "silver", "viewport": { "width": 1280, "height": 800 } },
-  { "file": "3-bronze.jpg", "path": "/", "grade": "bronze", "scroll": 1400, "viewport": { "width": 1280, "height": 800 } }
+  {
+    "file": "1-checklist-guide.jpg",
+    "path": "/",
+    "query": "trophy=22&earned=2-5,8-12,20,21,28,29,30,33,36,37,38,44,45,46,51,53,55&spoiler=off",
+    "viewport": { "width": 1280, "height": 800 },
+    "shows": "the checklist with a missable story trophy's guide, missable window and sources open beside it"
+  },
+  {
+    "file": "2-roadmap-missables.jpg",
+    "path": "/",
+    "query": "view=roadmap&earned=2-5,8-12,20,21,28,29,30,33,36,37,38,44,45,46,51,53,55&spoiler=off",
+    "viewport": { "width": 1280, "height": 800 },
+    "shows": "the six-stage road to the platinum with counts and the missable windows rail"
+  },
+  {
+    "file": "3-spoiler-filters.jpg",
+    "path": "/",
+    "query": "kind=story&trophy=12&earned=2-5,8-12,20,21,28,29,30,33,36,37,38,44,45,46,51,53,55&spoiler=on",
+    "viewport": { "width": 1280, "height": 800 },
+    "shows": "the story filter and spoiler shield at work, with saved progress and an earned trophy's guide"
+  },
+  {
+    "file": "4-progress-export.jpg",
+    "path": "/",
+    "query": "view=progress&earned=2-5,8-12,20,21,28,29,30,33,36,37,38,44,45,46,51,53,55&spoiler=off",
+    "viewport": { "width": 1280, "height": 800 },
+    "shows": "progress by grade and stage, the export/import panel, the spoiler setting and the source list"
+  }
 ]

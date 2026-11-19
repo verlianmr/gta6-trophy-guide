@@ -3,23 +3,96 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>GTA VI trophy checklist</title>
+<title>Leonida Ledger — GTA VI trophy guide &amp; tracker</title>
+<meta name="description" content="An offline guide and tracker for all 55 Grand Theft Auto VI PlayStation 5 trophies: a six-stage roadmap, every missable window, cited guides in our own words, and progress saved in your browser.">
+<meta name="theme-color" content="#08070d">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="style.css">
 </head>
-<body>
-<header>
-  <h1>GTA VI trophy checklist</h1>
-  <p id="progress">0 of 55 earned</p>
-</header>
-<div class="controls">
-  <label>Grade <select id="grade"><option value="all">All</option><option value="platinum">Platinum</option><option value="gold">Gold</option><option value="silver">Silver</option><option value="bronze">Bronze</option></select></label>
-  <button id="export" type="button">Export progress</button>
-  <label class="import">Import progress <input id="import" type="file" accept="application/json"></label>
+<body data-view="checklist">
+<a class="skip" href="#trophyList">Skip to the trophy list</a>
+<div class="shell">
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">LL</span>
+      <span class="brand-text">
+        <span class="brand-name">Leonida Ledger</span>
+        <span class="brand-sub">GTA VI · 55 trophies · offline</span>
+      </span>
+    </div>
+    <nav class="tabs" role="tablist" aria-label="Views">
+      <button class="tab" id="tab-checklist" role="tab" data-view="checklist" aria-selected="true" aria-controls="view-checklist">Checklist</button>
+      <button class="tab" id="tab-roadmap" role="tab" data-view="roadmap" aria-selected="false" aria-controls="view-roadmap" tabindex="-1">Roadmap</button>
+      <button class="tab" id="tab-progress" role="tab" data-view="progress" aria-selected="false" aria-controls="view-progress" tabindex="-1">Progress</button>
+    </nav>
+    <div class="headstat" aria-label="Overall progress">
+      <div class="headstat-top"><strong id="headCount">0</strong><span class="den">/55</span><span class="pct" id="headPct">0%</span></div>
+      <div class="meter" role="progressbar" aria-valuemin="0" aria-valuemax="55" aria-valuenow="0" id="headMeter"><span id="headBar"></span></div>
+      <p class="headstat-sub" id="headEta">≈ 64 h to platinum</p>
+    </div>
+    <label class="switch" title="Spoiler shield: hide story trophies until earned (S)">
+      <input type="checkbox" id="spoilerSwitch">
+      <span class="switch-track" aria-hidden="true"><span class="switch-dot"></span></span>
+      <span class="switch-label">Spoiler shield</span>
+    </label>
+    <span class="savestate" id="saveState" role="status" aria-live="polite">Saved locally</span>
+  </header>
+
+  <section class="filterbar" aria-label="Search and filters">
+    <div class="filter-row">
+      <label class="search">
+        <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12.8 12.8 17 17" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+        <input id="search" type="search" placeholder="Search trophies, guides, sources…" autocomplete="off" spellcheck="false" aria-label="Search trophies">
+        <kbd>/</kbd>
+      </label>
+      <div class="chipgroup" id="kindChips" role="group" aria-label="Filter by kind"></div>
+      <div class="chipgroup" id="gradeChips" role="group" aria-label="Filter by grade"></div>
+    </div>
+    <div class="filter-row filter-row-2">
+      <span class="resultline" id="resultLine" role="status" aria-live="polite">55 trophies</span>
+      <button class="toggle" id="missableToggle" type="button" aria-pressed="false"><span class="flagdot" aria-hidden="true"></span>Missable only <span class="n">14</span></button>
+      <label class="sort">Sort
+        <select id="sort" aria-label="Sort trophies">
+          <option value="stage">Roadmap order</option>
+          <option value="grade">Grade</option>
+          <option value="name">Name</option>
+          <option value="status">Unearned first</option>
+        </select>
+      </label>
+      <span class="spacer"></span>
+      <button class="btn" id="exportBtn" type="button" data-action="export">Export .json</button>
+      <label class="btn btn-ghost import-btn">Import<input type="file" id="importInput" data-import accept="application/json,.json"></label>
+      <button class="btn btn-ghost" id="resetBtn" type="button" data-action="reset">Reset</button>
+    </div>
+  </section>
+
+  <main class="workspace">
+    <section class="view view-checklist" id="view-checklist" role="tabpanel" aria-labelledby="tab-checklist">
+      <div class="listpane" id="listpane">
+        <div class="listhead">
+          <div>
+            <h1>Trophy checklist</h1>
+            <p class="viewsub" id="listSub">All 55 · 14 missable · progress saved in this browser</p>
+          </div>
+          <div class="listhead-right">
+            <span class="showing" id="showingCount">55 shown</span>
+            <div class="meter meter-sm" aria-hidden="true"><span id="listBar"></span></div>
+          </div>
+        </div>
+        <ul class="trophy-list" id="trophyList">
+          <li class="loading">Loading the 55 trophies…</li>
+        </ul>
+      </div>
+      <aside class="detailpane" id="detailPane" aria-label="Trophy guide and sources">
+        <p class="loading">Loading the guide…</p>
+      </aside>
+    </section>
+
+    <section class="view view-roadmap" id="view-roadmap" role="tabpanel" aria-labelledby="tab-roadmap" hidden></section>
+    <section class="view view-progress" id="view-progress" role="tabpanel" aria-labelledby="tab-progress" hidden></section>
+  </main>
 </div>
-<table>
-  <thead><tr><th>Earned</th><th>Trophy</th><th>Grade</th><th>How to get it</th></tr></thead>
-  <tbody id="rows"></tbody>
-</table>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
 <script type="module" src="app.js"></script>
 </body>
 </html>

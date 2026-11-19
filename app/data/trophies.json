@@ -2,391 +2,1625 @@
  "game": "Grand Theft Auto VI",
  "platform": "PlayStation 5",
  "list": "the official 55 trophies, 2026-11-18",
+ "stages": [
+  {
+   "n": 1,
+   "title": "Prologue & Chapter 1",
+   "subtitle": "Gone Fishing and the first chapter card",
+   "note": "Nothing is missable yet. Start the map sweep early if you pass a collectible.",
+   "warning": null
+  },
+  {
+   "n": 2,
+   "title": "Chapters 2–3",
+   "subtitle": "The drug-trade and heist chapters",
+   "note": "Cal's fishing challenge is the only missable in this block; take it before Chapter 2's last mission.",
+   "warning": "Beat Cal at the pier before Chapter 2 closes; his marker is gone once the chapter turns over."
+  },
+  {
+   "n": 3,
+   "title": "Chapter 4 & the finale",
+   "subtitle": "The last chapter and the final mission",
+   "note": "Point of no return: bank every missable and keep a manual save before the final mission.",
+   "warning": null
+  },
+  {
+   "n": 4,
+   "title": "Strands, choices & one-time scenes",
+   "subtitle": "Five character finales, three branch choices, three one-time scenes",
+   "note": "Do these as they appear: strands retire when the story moves on, and branch choices are exclusive.",
+   "warning": "Five character finales (22–24, 26–27), Bret's hunt (29), two partner jobs (33–34), two one-time scenes (44–45) and three branch choices (47–49) all expire here. Close the strands before Chapter 4 and keep a save before each choice."
+  },
+  {
+   "n": 5,
+   "title": "Activities, collectibles & the map",
+   "subtitle": "The long open-world sweep",
+   "note": "Nothing here expires, so it is safe after the story; use the map filters and the stats page.",
+   "warning": null
+  },
+  {
+   "n": 6,
+   "title": "Crime, cash & 100%",
+   "subtitle": "Robberies, purchases, the platinum",
+   "note": "The platinum lands here. 100% also wants the stage 5 sweep finished.",
+   "warning": null
+  }
+ ],
+ "sources": [
+  {
+   "name": "PowerPyx — trophy roadmap",
+   "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/"
+  },
+  {
+   "name": "PowerPyx — collectibles map",
+   "url": "https://www.powerpyx.com/grand-theft-auto-6-all-collectibles-locations/"
+  },
+  {
+   "name": "PowerPyx — activities guide",
+   "url": "https://www.powerpyx.com/grand-theft-auto-6-activities-guide/"
+  },
+  {
+   "name": "PowerPyx — 100% checklist",
+   "url": "https://www.powerpyx.com/grand-theft-auto-6-100-percent-completion-guide/"
+  },
+  {
+   "name": "PowerPyx — stranger strands",
+   "url": "https://www.powerpyx.com/grand-theft-auto-6-strangers-and-freaks-guide/"
+  },
+  {
+   "name": "IGN — trophy list & wiki",
+   "url": "https://www.ign.com/wikis/grand-theft-auto-6/Trophies"
+  },
+  {
+   "name": "IGN — walkthrough",
+   "url": "https://www.ign.com/wikis/grand-theft-auto-6/Walkthrough"
+  },
+  {
+   "name": "PSNProfiles — trophy guide",
+   "url": "https://psnprofiles.com/guide/21000-grand-theft-auto-vi-trophy-guide"
+  },
+  {
+   "name": "GTA Wiki — trophies",
+   "url": "https://gta.fandom.com/wiki/Trophies_in_GTA_VI"
+  },
+  {
+   "name": "GTABase — vehicle database",
+   "url": "https://www.gtabase.com/gta-6/"
+  },
+  {
+   "name": "YouTube — PowerPyx",
+   "url": "https://www.youtube.com/@PowerPyx"
+  },
+  {
+   "name": "YouTube — GTA Series Videos",
+   "url": "https://www.youtube.com/@GTAseriesVideos"
+  }
+ ],
  "trophies": [
   {
    "id": 1,
    "name": "Vice Got a Price!",
    "description": "Congratulations! You're a Leonida Legend.",
    "grade": "platinum",
-   "guide": "Earn the other 54 trophies."
+   "hidden": false,
+   "kind": "story",
+   "missable": false,
+   "stage": 6,
+   "hours": 0,
+   "guide": "Nothing extra to do here: the platinum is awarded the moment the other 54 trophies are on the account. Build the run in the six-stage order below so the 14 missable trophies are banked before the finale, then sweep the map at leisure. PSNProfiles' roadmap and PowerPyx's roadmap both put a clean run at roughly 55 to 70 hours, with the open-world sweep the largest single block.",
+   "steps": [
+    "Bank the 14 missable trophies before the final mission",
+    "Work the six stages in order",
+    "Finish the stage 5 sweep and the 100% checklist"
+   ],
+   "sources": [
+    {
+     "name": "PSNProfiles — trophy guide",
+     "url": "https://psnprofiles.com/guide/21000-grand-theft-auto-vi-trophy-guide"
+    },
+    {
+     "name": "PowerPyx — trophy roadmap",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/"
+    }
+   ]
   },
   {
    "id": 2,
    "name": "Just Like Paradise",
    "description": "Complete Gone Fishing.",
    "grade": "bronze",
-   "guide": "Finish the opening mission, Gone Fishing."
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "stage": 1,
+   "hours": 0.8,
+   "guide": "Gone Fishing is the opening mission and doubles as the movement and shooting tutorial, so follow the prompts until the mission-complete card appears; the trophy lands there. It cannot be missed and there is nothing to collect first. IGN's walkthrough treats it as the first checkpoint of the story path.",
+   "steps": [
+    "Start the story and follow the tutorial prompts",
+    "Finish the mission's chase and shooting beats",
+    "Trophy pops on the mission-complete card"
+   ],
+   "sources": [
+    {
+     "name": "PowerPyx — trophy roadmap",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/"
+    },
+    {
+     "name": "IGN — walkthrough",
+     "url": "https://www.ign.com/wikis/grand-theft-auto-6/Walkthrough"
+    }
+   ]
   },
   {
    "id": 3,
    "name": "Paradise Lost",
    "description": "Complete Chapter 1.",
    "grade": "bronze",
-   "guide": "Finish Chapter 1."
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "stage": 1,
+   "hours": 4,
+   "guide": "Chapter 1 runs from the first Vice City jobs to the chapter's closing mission, and the trophy is tied to that mission rather than to a completion percentage. Play the chapter's missions in order and it arrives automatically. IGN's walkthrough lists the missions in sequence if a marker is unclear.",
+   "steps": [
+    "Play the Chapter 1 mission chain in order",
+    "Ignore side markers until the chapter card appears",
+    "Trophy pops on the chapter's closing mission"
+   ],
+   "sources": [
+    {
+     "name": "IGN — walkthrough",
+     "url": "https://www.ign.com/wikis/grand-theft-auto-6/Walkthrough"
+    },
+    {
+     "name": "PowerPyx — trophy roadmap",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/"
+    }
+   ]
   },
   {
    "id": 4,
    "name": "T**s Ass Drug Money",
    "description": "Complete Chapter 2.",
    "grade": "bronze",
-   "guide": "Finish Chapter 2."
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "stage": 2,
+   "hours": 5,
+   "guide": "Chapter 2 moves the story into the drug-trade jobs and ends on its own chapter card, so the trophy fires at the close of the last Chapter 2 mission. It is unmissable, but chapter progress can retire side strands: take Cal's fishing challenge before you push the final mission. GTA Wiki's mission list is the cleanest chapter breakdown.",
+   "steps": [
+    "Take Cal's fishing challenge before the chapter's last mission",
+    "Play the Chapter 2 drug-trade missions",
+    "Trophy pops when the chapter closes"
+   ],
+   "sources": [
+    {
+     "name": "GTA Wiki — trophies",
+     "url": "https://gta.fandom.com/wiki/Trophies_in_GTA_VI"
+    },
+    {
+     "name": "PowerPyx — trophy roadmap",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/"
+    }
+   ]
   },
   {
    "id": 5,
    "name": "Vice City, Baby!",
    "description": "Complete Chapter 3.",
    "grade": "bronze",
-   "guide": "Finish Chapter 3."
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "stage": 2,
+   "hours": 5,
+   "guide": "Chapter 3 unlocks the heist jobs and the wider city, and the trophy drops when the chapter's final mission ends. There is no optional step, though this is the last comfortable point to finish the five character strands. PowerPyx's roadmap flags the same window before the chapter turns over.",
+   "steps": [
+    "Close Andy, Kenton, Billy, Randy and Tyrone's strands",
+    "Play the Chapter 3 heist missions",
+    "Trophy pops at the end of the chapter"
+   ],
+   "sources": [
+    {
+     "name": "PowerPyx — trophy roadmap",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/"
+    },
+    {
+     "name": "IGN — walkthrough",
+     "url": "https://www.ign.com/wikis/grand-theft-auto-6/Walkthrough"
+    }
+   ]
   },
   {
    "id": 6,
    "name": "Top Of The World, Ma",
    "description": "Complete Chapter 4.",
    "grade": "bronze",
-   "guide": "Finish Chapter 4."
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "stage": 3,
+   "hours": 4,
+   "guide": "Chapter 4 is the last full chapter and the trophy lands on its closing mission. Before you start it, clear every remaining character finale and one-time scene, because several close when the chapter does. Keep a manual save at the chapter's first mission so you can step back if a strand is still open. IGN's walkthrough marks the chapter's mission order.",
+   "steps": [
+    "Keep a manual save at the chapter's first mission",
+    "Clear the remaining one-time scenes and strands",
+    "Play Chapter 4 through its closing mission"
+   ],
+   "sources": [
+    {
+     "name": "IGN — walkthrough",
+     "url": "https://www.ign.com/wikis/grand-theft-auto-6/Walkthrough"
+    },
+    {
+     "name": "PowerPyx — trophy roadmap",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/"
+    }
+   ]
   },
   {
    "id": 7,
    "name": "You Gotta Know When to Get Off",
    "description": "Complete the final mission.",
    "grade": "gold",
-   "guide": "Finish the final mission (gold)."
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "stage": 3,
+   "hours": 2,
+   "guide": "The final mission closes the story and hands over the gold; there is no choice or score gate attached to it. Treat the mission's start as the point of no return: bank the 14 missables, finish the strands and take the one-time scenes first, and keep a save you can reload. PowerPyx's roadmap puts the same warning at the same point.",
+   "steps": [
+    "Bank all 14 missables and close every strand",
+    "Keep a manual save before the mission starts",
+    "Finish the final mission for the gold"
+   ],
+   "sources": [
+    {
+     "name": "PowerPyx — trophy roadmap",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/"
+    },
+    {
+     "name": "PSNProfiles — trophy guide",
+     "url": "https://psnprofiles.com/guide/21000-grand-theft-auto-vi-trophy-guide"
+    }
+   ]
   },
   {
    "id": 8,
    "name": "Trust",
    "description": "Complete Breakfast Run.",
    "grade": "bronze",
-   "guide": "Finish the mission Breakfast Run."
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "stage": 2,
+   "hours": 0.4,
+   "guide": "Breakfast Run is a story mission in the early chapter and the trophy is awarded on its completion screen. Follow the objective markers and it cannot be skipped or failed permanently. IGN's walkthrough covers the mission step by step if a chase goes wrong.",
+   "steps": [
+    "Start Breakfast Run from the story marker",
+    "Follow the objective through the chase",
+    "Trophy pops on the completion screen"
+   ],
+   "sources": [
+    {
+     "name": "PowerPyx — trophy roadmap",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/"
+    },
+    {
+     "name": "IGN — walkthrough",
+     "url": "https://www.ign.com/wikis/grand-theft-auto-6/Walkthrough"
+    }
+   ]
   },
   {
    "id": 9,
    "name": "Break the Bank",
    "description": "Complete The Cartel Heist.",
    "grade": "bronze",
-   "guide": "Finish the mission The Cartel Heist."
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "stage": 2,
+   "hours": 0.6,
+   "guide": "The Cartel Heist is one of the mid-story heists and the trophy is tied to finishing it, not to the take or a gold medal. Play it through the planning board and the escape, and the trophy appears with the mission summary. It cannot be missed. IGN's heist section explains the setup if the planning options are unclear.",
+   "steps": [
+    "Set up The Cartel Heist on the planning board",
+    "Complete the heist and its escape",
+    "Trophy pops with the mission summary"
+   ],
+   "sources": [
+    {
+     "name": "IGN — walkthrough",
+     "url": "https://www.ign.com/wikis/grand-theft-auto-6/Walkthrough"
+    },
+    {
+     "name": "PowerPyx — trophy roadmap",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/"
+    }
+   ]
   },
   {
    "id": 10,
    "name": "Family Matters",
    "description": "Complete Child's Play.",
    "grade": "bronze",
-   "guide": "Finish the mission Child's Play."
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "stage": 2,
+   "hours": 0.5,
+   "guide": "Child's Play is a story mission that sits in the middle chapter block and unlocks its trophy on completion. Nothing in it is optional for the platinum, and failing it only restarts a checkpoint. IGN's walkthrough shows the route through its set piece.",
+   "steps": [
+    "Start Child's Play from the story marker",
+    "Play through its set piece",
+    "Trophy pops when the mission ends"
+   ],
+   "sources": [
+    {
+     "name": "PowerPyx — trophy roadmap",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/"
+    },
+    {
+     "name": "IGN — walkthrough",
+     "url": "https://www.ign.com/wikis/grand-theft-auto-6/Walkthrough"
+    }
+   ]
   },
   {
    "id": 11,
    "name": "DWNFALL",
    "description": "Complete Headliners.",
    "grade": "bronze",
-   "guide": "Finish the mission Headliners."
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "stage": 2,
+   "hours": 0.6,
+   "guide": "Headliners is a story mission built around a venue set piece, and the trophy pops when the mission ends. There is no collectible or score attached, so simply play it through. GTA Wiki lists it in the chapter's mission order if you need to see what comes before it.",
+   "steps": [
+    "Start Headliners from the story marker",
+    "Finish the venue set piece",
+    "Trophy pops at mission end"
+   ],
+   "sources": [
+    {
+     "name": "GTA Wiki — trophies",
+     "url": "https://gta.fandom.com/wiki/Trophies_in_GTA_VI"
+    },
+    {
+     "name": "PowerPyx — trophy roadmap",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/"
+    }
+   ]
   },
   {
    "id": 12,
    "name": "Hi-Jacked",
    "description": "Complete VCIA Takedown.",
    "grade": "bronze",
-   "guide": "Finish the mission VCIA Takedown."
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "stage": 3,
+   "hours": 0.7,
+   "guide": "VCIA Takedown is the airport assault mission and the trophy is awarded on its completion screen. It is part of the main story path, so it cannot be missed; the only risk is leaving side strands open, which this mission's chapter progress can close. IGN's walkthrough covers the approach.",
+   "steps": [
+    "Start VCIA Takedown from the story marker",
+    "Fight through the airport assault",
+    "Trophy pops on the completion screen"
+   ],
+   "sources": [
+    {
+     "name": "IGN — walkthrough",
+     "url": "https://www.ign.com/wikis/grand-theft-auto-6/Walkthrough"
+    },
+    {
+     "name": "PowerPyx — trophy roadmap",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/"
+    }
+   ]
   },
   {
    "id": 13,
    "name": "Snow Storm",
    "description": "Complete Operation Savage Glory.",
    "grade": "bronze",
-   "guide": "Finish the mission Operation Savage Glory."
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "stage": 3,
+   "hours": 0.8,
+   "guide": "Operation Savage Glory is a late-story mission and its trophy fires when the mission ends. Play it after the character strands are closed, because it pushes the story toward the finale. PowerPyx's roadmap places it in the last chapter block.",
+   "steps": [
+    "Finish the strands before starting the mission",
+    "Play Operation Savage Glory through",
+    "Trophy pops when the mission ends"
+   ],
+   "sources": [
+    {
+     "name": "PowerPyx — trophy roadmap",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/"
+    },
+    {
+     "name": "IGN — walkthrough",
+     "url": "https://www.ign.com/wikis/grand-theft-auto-6/Walkthrough"
+    }
+   ]
   },
   {
    "id": 14,
    "name": "A Long Road",
    "description": "Attain 100% Completion.",
    "grade": "gold",
-   "guide": "Reach 100% completion (gold)."
+   "hidden": false,
+   "kind": "activities",
+   "missable": false,
+   "stage": 6,
+   "hours": 3,
+   "guide": "100% completion is its own checklist: story missions, all eight stranger strands, the collectible sets, activities, properties and the map's remaining icons. Work from a tracker rather than the pause menu alone, because a few requirements hide behind activities you have not tried yet. PowerPyx's 100% checklist is the one this guide's stage 5 and 6 order follows; it is not missable, just long.",
+   "steps": [
+    "Finish stages 1 to 4",
+    "Clear stage 5 activities and collectibles",
+    "Buy the properties and close the last map icons"
+   ],
+   "sources": [
+    {
+     "name": "PowerPyx — 100% checklist",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-100-percent-completion-guide/"
+    },
+    {
+     "name": "PSNProfiles — trophy guide",
+     "url": "https://psnprofiles.com/guide/21000-grand-theft-auto-vi-trophy-guide"
+    }
+   ]
   },
   {
    "id": 15,
    "name": "Cunning Stunts",
    "description": "Complete 250 Stunts.",
    "grade": "silver",
-   "guide": "Pull off 250 stunts (silver)."
+   "hidden": false,
+   "kind": "activities",
+   "missable": false,
+   "stage": 5,
+   "hours": 2,
+   "count": 250,
+   "countUnit": "stunts",
+   "guide": "Stunts are the jump and vehicle-skill challenges scattered around Leonida, and the counter only counts successful attempts, so pick a repeatable ramp and grind it. The 250 total is cumulative across the whole save and nothing expires. PowerPyx's activities guide maps the reliable stunt spots; the beach and airport ramps make the fastest loops.",
+   "steps": [
+    "Find a repeatable ramp near a garage",
+    "Land clean stunts and repair between runs",
+    "Repeat until the stats counter reads 250"
+   ],
+   "sources": [
+    {
+     "name": "PowerPyx — activities guide",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-activities-guide/"
+    },
+    {
+     "name": "PowerPyx — trophy roadmap",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/"
+    }
+   ]
   },
   {
    "id": 16,
    "name": "Master of None",
    "description": "Try each type of activity once.",
    "grade": "bronze",
-   "guide": "Try all 9 activity types once."
+   "hidden": false,
+   "kind": "activities",
+   "missable": false,
+   "stage": 5,
+   "hours": 0.6,
+   "count": 9,
+   "countUnit": "activity types",
+   "guide": "There are nine activity types in the open world, from stunt jumps and street races to fishing, arcade games and the WAiNK check-ins, and the trophy fires when the last new type is tried once. You do not need to finish or win them. PowerPyx's activities guide lists the nine types; the pause-menu stats page shows which one is still missing.",
+   "steps": [
+    "Open the pause-menu stats page",
+    "Try each of the nine activity types once",
+    "Trophy pops on the last new type"
+   ],
+   "sources": [
+    {
+     "name": "PowerPyx — activities guide",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-activities-guide/"
+    },
+    {
+     "name": "IGN — trophy list & wiki",
+     "url": "https://www.ign.com/wikis/grand-theft-auto-6/Trophies"
+    }
+   ]
   },
   {
    "id": 17,
    "name": "The Shootist",
    "description": "Earn a gold medal in all Shooting Range challenges.",
    "grade": "silver",
-   "guide": "Gold all 42 Shooting Range challenges (silver)."
+   "hidden": false,
+   "kind": "activities",
+   "missable": false,
+   "stage": 5,
+   "hours": 2,
+   "count": 42,
+   "countUnit": "challenges",
+   "guide": "Each Shooting Range has a set of challenges with bronze, silver and gold scores, and the trophy wants gold on all 42. Gold usually means a clean run with the range's intended weapon, so learn the target order before spending ammo. Ranges can be replayed at any time, so nothing is missable. PowerPyx's activities guide lists the gold scores.",
+   "steps": [
+    "Find each Shooting Range on the map",
+    "Learn the target order and intended weapon",
+    "Replay until every challenge shows gold"
+   ],
+   "sources": [
+    {
+     "name": "PowerPyx — activities guide",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-activities-guide/"
+    },
+    {
+     "name": "YouTube — PowerPyx",
+     "url": "https://www.youtube.com/@PowerPyx"
+    }
+   ]
   },
   {
    "id": 18,
    "name": "Top Fun",
    "description": "Win a Top Fun Drone Race at every location.",
    "grade": "bronze",
-   "guide": "Win a Top Fun drone race at all 14 locations."
+   "hidden": false,
+   "kind": "activities",
+   "missable": false,
+   "stage": 5,
+   "hours": 1,
+   "guide": "Top Fun drone races run at several fixed locations, and the trophy wants a win at each one rather than a single overall win. Use the quickest drone and cut the course's inside lines; a second place does not count. Races are replayable, so keep retrying until every location shows a win. PowerPyx's activities guide maps the locations.",
+   "steps": [
+    "Unlock the Top Fun drone races",
+    "Win at each race location, not just once",
+    "Check the map for locations still without a win"
+   ],
+   "sources": [
+    {
+     "name": "PowerPyx — activities guide",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-activities-guide/"
+    },
+    {
+     "name": "PowerPyx — trophy roadmap",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/"
+    }
+   ]
   },
   {
    "id": 19,
    "name": "Earn Cash, Not Kudos",
    "description": "Win 20 different races.",
    "grade": "bronze",
-   "guide": "Win 20 different races."
+   "hidden": false,
+   "kind": "activities",
+   "missable": false,
+   "stage": 5,
+   "hours": 1.5,
+   "count": 20,
+   "countUnit": "races",
+   "guide": "The trophy counts 20 different race events won, not 20 wins, so repeating one circuit will not finish it. Work through the map's race icons and vary the class: street, off-road and water events all count. Nothing is missable and a loss costs only time. PowerPyx's activities guide lists the event types.",
+   "steps": [
+    "Filter the map for race events",
+    "Win 20 different events, not one event 20 times",
+    "Vary street, off-road and water classes"
+   ],
+   "sources": [
+    {
+     "name": "PowerPyx — activities guide",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-activities-guide/"
+    },
+    {
+     "name": "IGN — trophy list & wiki",
+     "url": "https://www.ign.com/wikis/grand-theft-auto-6/Trophies"
+    }
+   ]
   },
   {
    "id": 20,
    "name": "Baited My Tackle",
    "description": "Beat Cal in a fishing challenge.",
    "grade": "bronze",
-   "guide": "Beat Cal in a fishing challenge."
+   "hidden": true,
+   "kind": "missable",
+   "missable": true,
+   "stage": 2,
+   "hours": 0.5,
+   "missableNote": "Tied to Cal's strand in Chapters 1 and 2; the pier marker disappears once the story moves on.",
+   "guide": "Cal's fishing challenge appears during his early strand: meet him at the marked pier and beat his catch before the story's chapter progress retires the strand. Use the heavier rod and cast into the deeper water he points out; a lost challenge can be retried only while the strand is open. PowerPyx's strangers guide notes the window.",
+   "steps": [
+    "Meet Cal at the marked pier while his strand is open",
+    "Use the heavier rod and cast into the deep water",
+    "Beat his catch before starting Chapter 2's last mission"
+   ],
+   "sources": [
+    {
+     "name": "PowerPyx — stranger strands",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-strangers-and-freaks-guide/"
+    },
+    {
+     "name": "PowerPyx — trophy roadmap",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/"
+    }
+   ]
   },
   {
    "id": 21,
    "name": "Stick Fiddler",
    "description": "Complete an arcade game.",
    "grade": "bronze",
-   "guide": "Finish one arcade game."
+   "hidden": false,
+   "kind": "activities",
+   "missable": false,
+   "stage": 5,
+   "hours": 0.3,
+   "guide": "Any arcade cabinet in a bar or arcade will do, and the trophy only asks that you finish one game, not that you set a high score. Pick the shortest cabinet, learn its pattern, and play it to the end screen. It is repeatable, so there is no missable window. PowerPyx's activities guide names the easiest cabinet.",
+   "steps": [
+    "Find an arcade cabinet in a bar or arcade",
+    "Learn the shortest game's pattern",
+    "Play it to the end screen"
+   ],
+   "sources": [
+    {
+     "name": "PowerPyx — activities guide",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-activities-guide/"
+    },
+    {
+     "name": "GTA Wiki — trophies",
+     "url": "https://gta.fandom.com/wiki/Trophies_in_GTA_VI"
+    }
+   ]
   },
   {
    "id": 22,
    "name": "Road to Rehabilitation",
    "description": "Complete the final mission for Andy.",
    "grade": "bronze",
-   "guide": "Finish Andy's last mission."
+   "hidden": true,
+   "kind": "story",
+   "missable": true,
+   "stage": 4,
+   "hours": 0.8,
+   "missableNote": "Andy's strand retires when Chapter 4 ends; there is no replay once it is gone.",
+   "guide": "Andy's strand is a short set of missions that ends with a personal finale, and the trophy is tied to that last mission. The strand sits inside the story's middle chapters, so finish it before Chapter 4 closes. If the marker is gone, reload an earlier save; there is no replay option. PowerPyx's strangers guide tracks the strand's steps.",
+   "steps": [
+    "Start Andy's strand in the middle chapters",
+    "Finish his mission chain before Chapter 4",
+    "Complete his final mission for the trophy"
+   ],
+   "sources": [
+    {
+     "name": "PowerPyx — stranger strands",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-strangers-and-freaks-guide/"
+    },
+    {
+     "name": "IGN — walkthrough",
+     "url": "https://www.ign.com/wikis/grand-theft-auto-6/Walkthrough"
+    }
+   ]
   },
   {
    "id": 23,
    "name": "This Was No Boat Accident",
    "description": "Complete the final mission for Kenton.",
    "grade": "bronze",
-   "guide": "Finish Kenton's last mission."
+   "hidden": true,
+   "kind": "story",
+   "missable": true,
+   "stage": 4,
+   "hours": 0.7,
+   "missableNote": "Kenton's boat-yard strand closes before the late-story chapter; no replay after that.",
+   "guide": "Kenton's strand follows the boat-yard jobs and closes with a final mission that awards the trophy. Do it while the strand's markers are still on the map, which is before the late-story chapter pushes past it. There is no way to replay a retired strand, so keep a save from before Chapter 4. PowerPyx's strangers guide lists the missions.",
+   "steps": [
+    "Start Kenton's boat-yard strand",
+    "Finish the mission chain while its markers show",
+    "Complete his final mission for the trophy"
+   ],
+   "sources": [
+    {
+     "name": "PowerPyx — stranger strands",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-strangers-and-freaks-guide/"
+    },
+    {
+     "name": "PowerPyx — trophy roadmap",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/"
+    }
+   ]
   },
   {
    "id": 24,
    "name": "The Lone Rider",
    "description": "Complete the final mission for Billy.",
    "grade": "bronze",
-   "guide": "Finish Billy's last mission."
+   "hidden": true,
+   "kind": "story",
+   "missable": true,
+   "stage": 4,
+   "hours": 0.7,
+   "missableNote": "Billy's biker strand stops calling in the final chapter; finish it before the endgame.",
+   "guide": "Billy's strand is a biker-flavoured set of side missions ending in a finale, and the trophy fires on that mission. Finish it before the story's final chapter, when the strand's contact can stop calling. PowerPyx's strangers guide gives the mission order and the trigger points.",
+   "steps": [
+    "Pick up Billy's biker strand",
+    "Work through his mission chain",
+    "Finish his final mission for the trophy"
+   ],
+   "sources": [
+    {
+     "name": "PowerPyx — stranger strands",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-strangers-and-freaks-guide/"
+    },
+    {
+     "name": "GTA Wiki — trophies",
+     "url": "https://gta.fandom.com/wiki/Trophies_in_GTA_VI"
+    }
+   ]
   },
   {
    "id": 25,
    "name": "Strangers & Freaks",
    "description": "Complete 8 mission strands for strangers across the state of Leonida.",
    "grade": "silver",
-   "guide": "Finish 8 stranger strands (silver)."
+   "hidden": false,
+   "kind": "activities",
+   "missable": false,
+   "stage": 4,
+   "hours": 2.5,
+   "count": 8,
+   "countUnit": "strands",
+   "guide": "The trophy counts eight completed stranger strands, and the game holds more than eight, so you have slack if one strand closes. Each strand is a short chain of missions ending in a finale; the counter sits in the pause-menu stats. PowerPyx's strangers guide lists every strand and where it starts, the quickest route to eight.",
+   "steps": [
+    "Open the map's stranger markers",
+    "Finish short mission chains end to end",
+    "Stop at the eighth completed strand"
+   ],
+   "sources": [
+    {
+     "name": "PowerPyx — stranger strands",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-strangers-and-freaks-guide/"
+    },
+    {
+     "name": "PSNProfiles — trophy guide",
+     "url": "https://psnprofiles.com/guide/21000-grand-theft-auto-vi-trophy-guide"
+    }
+   ]
   },
   {
    "id": 26,
    "name": "Supply & Demand",
    "description": "Complete the final mission for Randy.",
    "grade": "bronze",
-   "guide": "Finish Randy's last mission."
+   "hidden": true,
+   "kind": "story",
+   "missable": true,
+   "stage": 4,
+   "hours": 0.7,
+   "missableNote": "Randy's supply-line strand vanishes once the late-story push begins.",
+   "guide": "Randy's strand is the supply-line set of missions and its final mission awards the trophy. Keep the strand moving between story chapters, because its markers vanish once the late-story push begins. A manual save before Chapter 4 is the safety net. PowerPyx's strangers guide covers the triggers.",
+   "steps": [
+    "Start Randy's supply-line strand",
+    "Keep it moving between chapters",
+    "Finish his final mission for the trophy"
+   ],
+   "sources": [
+    {
+     "name": "PowerPyx — stranger strands",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-strangers-and-freaks-guide/"
+    },
+    {
+     "name": "IGN — walkthrough",
+     "url": "https://www.ign.com/wikis/grand-theft-auto-6/Walkthrough"
+    }
+   ]
   },
   {
    "id": 27,
    "name": "Spin On This!",
    "description": "Complete the final mission for Tyrone.",
    "grade": "bronze",
-   "guide": "Finish Tyrone's last mission."
+   "hidden": true,
+   "kind": "story",
+   "missable": true,
+   "stage": 4,
+   "hours": 0.7,
+   "missableNote": "Tyrone's strand drops off the map before the final chapter.",
+   "guide": "Tyrone's strand ends in its own finale mission, and the trophy is tied to finishing that mission rather than to any optional objective. Do it before the final chapter, when the strand's contact drops off the map. PowerPyx's strangers guide shows the mission chain.",
+   "steps": [
+    "Start Tyrone's strand",
+    "Finish the mission chain before the final chapter",
+    "Complete his finale for the trophy"
+   ],
+   "sources": [
+    {
+     "name": "PowerPyx — stranger strands",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-strangers-and-freaks-guide/"
+    },
+    {
+     "name": "PowerPyx — trophy roadmap",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/"
+    }
+   ]
   },
   {
    "id": 28,
    "name": "Positive Mental Attitude",
    "description": "Meditate at every spot across Leonida.",
    "grade": "bronze",
-   "guide": "Meditate at all 18 spots."
+   "hidden": false,
+   "kind": "collectibles",
+   "missable": false,
+   "stage": 5,
+   "hours": 1,
+   "guide": "Meditation spots are fixed viewpoints where a prompt lets you sit and meditate, and the trophy wants every spot used once. They are scattered from the beach to the hills, so follow a map rather than hunting by eye. Nothing expires. PowerPyx's collectibles map marks each spot with the prompt's icon.",
+   "steps": [
+    "Filter the map for meditation prompts",
+    "Sit at each spot and finish the short scene",
+    "Check the stats page for spots still unused"
+   ],
+   "sources": [
+    {
+     "name": "PowerPyx — collectibles map",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-all-collectibles-locations/"
+    },
+    {
+     "name": "PowerPyx — activities guide",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-activities-guide/"
+    }
+   ]
   },
   {
    "id": 29,
    "name": "Fair Game",
    "description": "Hunt a unique animal for Bret.",
    "grade": "bronze",
-   "guide": "Hunt the unique animal for Bret."
+   "hidden": true,
+   "kind": "missable",
+   "missable": true,
+   "stage": 4,
+   "hours": 0.6,
+   "missableNote": "Bret's request expires with his strand; the unique animal cannot be hunted after that.",
+   "guide": "Bret asks for a specific legendary animal and the trophy is awarded when you bring it down, not when you accept the request. Track it with the hunting map, use the appropriate rifle and take a clean shot before it flees. Bret's strand can close if you leave it too long, so do the hunt in the same session you take the request. PowerPyx's stranger strands guide covers the hunt and the spawn area.",
+   "steps": [
+    "Take Bret's hunting request in the same session",
+    "Track the animal with the hunting map",
+    "Use the right rifle and take a clean shot"
+   ],
+   "sources": [
+    {
+     "name": "PowerPyx — stranger strands",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-strangers-and-freaks-guide/"
+    },
+    {
+     "name": "PowerPyx — collectibles map",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-all-collectibles-locations/"
+    }
+   ]
   },
   {
    "id": 30,
    "name": "Don't Touch My Deck",
    "description": "Complete 3 Collectible Card sets.",
    "grade": "silver",
-   "guide": "Complete 3 collectible card sets (silver)."
+   "hidden": false,
+   "kind": "collectibles",
+   "missable": false,
+   "stage": 5,
+   "hours": 1.5,
+   "count": 3,
+   "countUnit": "sets",
+   "guide": "Collectible card sets are sold in shops and hidden around the map, and completing any three full sets awards the trophy. Sets are small, so buy the missing cards when a shop stocks them rather than hunting every spawn. Nothing is missable. PowerPyx's collectibles map lists the card locations by set.",
+   "steps": [
+    "Buy the missing cards whenever a shop stocks them",
+    "Follow the collectibles map for hidden cards",
+    "Complete any three full sets"
+   ],
+   "sources": [
+    {
+     "name": "PowerPyx — collectibles map",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-all-collectibles-locations/"
+    },
+    {
+     "name": "PowerPyx — trophy roadmap",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/"
+    }
+   ]
   },
   {
    "id": 31,
    "name": "You WAiNKer!",
    "description": "WAiNK It at 100 locations.",
    "grade": "silver",
-   "guide": "WAiNK It at 100 locations (silver)."
+   "hidden": false,
+   "kind": "collectibles",
+   "missable": false,
+   "stage": 5,
+   "hours": 3,
+   "count": 100,
+   "countUnit": "check-ins",
+   "guide": "WAiNK is the in-game social app: check in at 100 marked locations to finish the trophy. The map filter shows which spots you have already used, so work district by district. There is no time limit and no missable check-in. PowerPyx's collectibles map plots all 100.",
+   "steps": [
+    "Open WAiNK and filter the map for unused spots",
+    "Work district by district",
+    "Check in at 100 marked locations"
+   ],
+   "sources": [
+    {
+     "name": "PowerPyx — collectibles map",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-all-collectibles-locations/"
+    },
+    {
+     "name": "PowerPyx — activities guide",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-activities-guide/"
+    }
+   ]
   },
   {
    "id": 32,
    "name": "One Last Thing",
    "description": "Complete 50 Challenges.",
    "grade": "bronze",
-   "guide": "Finish 50 challenges."
+   "hidden": false,
+   "kind": "activities",
+   "missable": false,
+   "stage": 5,
+   "hours": 1.2,
+   "count": 50,
+   "countUnit": "challenges",
+   "guide": "The Challenges menu tracks weapon, vehicle and traversal tasks, and the trophy wants 50 of them completed. Pick the ones that fit your normal play, such as headshots or near-misses, and watch the menu's progress bars. Nothing is missable and progress carries across the whole save. PowerPyx's activities guide lists the fastest challenges.",
+   "steps": [
+    "Open the Challenges menu",
+    "Pick tasks that fit your normal play",
+    "Complete 50 challenges across the save"
+   ],
+   "sources": [
+    {
+     "name": "PowerPyx — activities guide",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-activities-guide/"
+    },
+    {
+     "name": "PSNProfiles — trophy guide",
+     "url": "https://psnprofiles.com/guide/21000-grand-theft-auto-vi-trophy-guide"
+    }
+   ]
   },
   {
    "id": 33,
    "name": "Hot Together",
    "description": "Lose a 4 star Wanted Level with your partner and escape the heat.",
    "grade": "bronze",
-   "guide": "Lose a 4-star wanted level with your partner."
+   "hidden": true,
+   "kind": "missable",
+   "missable": true,
+   "stage": 4,
+   "hours": 0.4,
+   "missableNote": "Needs the story partner; the co-op prompt is gone after the final mission.",
+   "guide": "With your partner in the car, raise a four-star wanted level and then break line of sight together until the stars clear; the trophy wants the escape, not just the rating. Do it during the story window when the partner is available, because the co-op prompts stop after the finale. Use the storm drains and the metro to drop the chopper. PowerPyx's activities guide marks reliable hiding routes.",
+   "steps": [
+    "Get in a car with your partner",
+    "Raise a four-star wanted level",
+    "Break line of sight together until the stars clear"
+   ],
+   "sources": [
+    {
+     "name": "PowerPyx — activities guide",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-activities-guide/"
+    },
+    {
+     "name": "PowerPyx — trophy roadmap",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/"
+    }
+   ]
   },
   {
    "id": 34,
    "name": "Retail Therapy",
    "description": "Rob 3 shops back-to-back with your partner without losing your Wanted Level.",
    "grade": "bronze",
-   "guide": "Rob 3 shops in a row with your partner, keeping your wanted level."
+   "hidden": true,
+   "kind": "missable",
+   "missable": true,
+   "stage": 4,
+   "hours": 0.6,
+   "missableNote": "Partner-dependent and story-windowed; impossible once the partner leaves.",
+   "guide": "Rob three shops back-to-back without letting the wanted level clear, with your partner along for each one. Plan a route of three nearby convenience stores, hit them quickly and lose the heat only after the third. The partner window closes with the story, so do it before the finale. PowerPyx's activities guide maps short routes.",
+   "steps": [
+    "Plan a route of three nearby convenience stores",
+    "Rob all three back-to-back with your partner",
+    "Lose the wanted level only after the third"
+   ],
+   "sources": [
+    {
+     "name": "PowerPyx — activities guide",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-activities-guide/"
+    },
+    {
+     "name": "GTA Wiki — trophies",
+     "url": "https://gta.fandom.com/wiki/Trophies_in_GTA_VI"
+    }
+   ]
   },
   {
    "id": 35,
    "name": "Whip It Good",
    "description": "Discover 100 vehicles.",
    "grade": "bronze",
-   "guide": "Discover 100 vehicles."
+   "hidden": false,
+   "kind": "collectibles",
+   "missable": false,
+   "stage": 5,
+   "hours": 1.2,
+   "count": 100,
+   "countUnit": "vehicles",
+   "guide": "The game tracks every distinct vehicle you have driven or owned, and the trophy wants 100 of them discovered. Traffic, dealerships and the airport car park are the cheapest sources; steal and drive each model once. Nothing is missable. GTABase's vehicle list helps you spot the models you have not touched.",
+   "steps": [
+    "Steal and drive cars from traffic and dealerships",
+    "Check the airport car park for rare models",
+    "Discover 100 distinct vehicles"
+   ],
+   "sources": [
+    {
+     "name": "GTABase — vehicle database",
+     "url": "https://www.gtabase.com/gta-6/"
+    },
+    {
+     "name": "PowerPyx — trophy roadmap",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/"
+    }
+   ]
   },
   {
    "id": 36,
    "name": "Gunslinger",
    "description": "Take down 5 enemies in a single use of Combat Focus.",
    "grade": "bronze",
-   "guide": "Down 5 enemies in one Combat Focus."
+   "hidden": false,
+   "kind": "activities",
+   "missable": false,
+   "stage": 5,
+   "hours": 0.2,
+   "guide": "Combat Focus slows time and marks targets; trigger it in a crowded fight and land five kills before the meter drains. A gang operation or a police response gives you enough targets in one burst. It is repeatable and nothing is missable. PowerPyx's activities guide suggests the ability upgrades that extend the window.",
+   "steps": [
+    "Trigger Combat Focus in a crowded fight",
+    "Land five kills before the meter drains",
+    "Retry at a gang operation if you fall short"
+   ],
+   "sources": [
+    {
+     "name": "PowerPyx — activities guide",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-activities-guide/"
+    },
+    {
+     "name": "IGN — trophy list & wiki",
+     "url": "https://www.ign.com/wikis/grand-theft-auto-6/Trophies"
+    }
+   ]
   },
   {
    "id": 37,
    "name": "Catch Me If You Can",
    "description": "Make an unscheduled departure at VCIA.",
    "grade": "bronze",
-   "guide": "Leave VCIA in an unscheduled way."
+   "hidden": false,
+   "kind": "activities",
+   "missable": false,
+   "stage": 5,
+   "hours": 0.3,
+   "guide": "At VCIA, steal a plane or helicopter and take off without filing a flight plan; the tower's reaction is the trophy. The airport's hangars are the easiest source, and a three-star response follows, so have an escape route ready. It can be repeated. PowerPyx's activities guide marks the hangar.",
+   "steps": [
+    "Go to the VCIA hangars",
+    "Steal a plane or helicopter",
+    "Take off without filing a flight plan"
+   ],
+   "sources": [
+    {
+     "name": "PowerPyx — activities guide",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-activities-guide/"
+    },
+    {
+     "name": "GTA Wiki — trophies",
+     "url": "https://gta.fandom.com/wiki/Trophies_in_GTA_VI"
+    }
+   ]
   },
   {
    "id": 38,
    "name": "Challenging Tank",
    "description": "Kinda hot in these Rhinos.",
    "grade": "bronze",
-   "guide": "Deal with Rhinos (tanks)."
+   "hidden": false,
+   "kind": "activities",
+   "missable": false,
+   "stage": 5,
+   "hours": 0.4,
+   "guide": "The Rhino is the military tank; steal one from the convoy or the base and the trophy pops on the first drive. The line in the description is a hint, not a requirement. Expect a heavy response and take the tank off-road to lose it. Nothing is missable. GTABase's vehicle database lists the tank and where it spawns.",
+   "steps": [
+    "Find the military convoy or base",
+    "Steal the Rhino tank",
+    "Drive it off-road to lose the response"
+   ],
+   "sources": [
+    {
+     "name": "PowerPyx — activities guide",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-activities-guide/"
+    },
+    {
+     "name": "GTABase — vehicle database",
+     "url": "https://www.gtabase.com/gta-6/"
+    }
+   ]
   },
   {
    "id": 39,
    "name": "Sneakthief",
    "description": "Rob a jewelry store without being detected.",
    "grade": "bronze",
-   "guide": "Rob a jewelry store without being seen."
+   "hidden": false,
+   "kind": "activities",
+   "missable": false,
+   "stage": 6,
+   "hours": 0.5,
+   "guide": "The jewelry store heist has a stealth route: disable the alarm, take out the guard silently and leave before the alarm triggers. If you are spotted, the trophy fails for that attempt but the store can be hit again. Use a silenced weapon and avoid the front window. PowerPyx's activities guide maps the cameras.",
+   "steps": [
+    "Scout the jewelry store's cameras and guard",
+    "Disable the alarm and take the guard silently",
+    "Leave before the alarm triggers"
+   ],
+   "sources": [
+    {
+     "name": "PowerPyx — activities guide",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-activities-guide/"
+    },
+    {
+     "name": "YouTube — GTA Series Videos",
+     "url": "https://www.youtube.com/@GTAseriesVideos"
+    }
+   ]
   },
   {
    "id": 40,
    "name": "Maximum Withdrawal",
    "description": "Rob 5 Bank Vaults and escape.",
    "grade": "silver",
-   "guide": "Rob 5 bank vaults and escape (silver)."
+   "hidden": false,
+   "kind": "activities",
+   "missable": false,
+   "stage": 6,
+   "hours": 1.5,
+   "count": 5,
+   "countUnit": "vaults",
+   "guide": "Five bank vaults have to be robbed and escaped from, and each is a multi-stage job: scout, drill, grab and run. Plan the escape vehicle before you enter, because the wanted level spikes on exit. Banks can be replayed, so a failed escape costs only time. PowerPyx's activities guide ranks the vaults by difficulty.",
+   "steps": [
+    "Scout each bank and park an escape vehicle",
+    "Drill the vault and grab the take",
+    "Escape the wanted level after each robbery"
+   ],
+   "sources": [
+    {
+     "name": "PowerPyx — activities guide",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-activities-guide/"
+    },
+    {
+     "name": "PowerPyx — trophy roadmap",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/"
+    }
+   ]
   },
   {
    "id": 41,
    "name": "A Classic Blitz Play",
    "description": "Rob an Armored Truck and escape.",
    "grade": "bronze",
-   "guide": "Rob an armored truck and escape."
+   "hidden": false,
+   "kind": "activities",
+   "missable": false,
+   "stage": 6,
+   "hours": 0.5,
+   "guide": "Armored trucks run fixed routes; ambush one, crack the rear doors and escape the response. The trophy is for the robbery and the escape, not for a clean approach. Trucks respawn, so it can be repeated. PowerPyx's activities guide lists the routes.",
+   "steps": [
+    "Find an armored truck on its route",
+    "Ambush it and crack the rear doors",
+    "Escape the response"
+   ],
+   "sources": [
+    {
+     "name": "PowerPyx — activities guide",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-activities-guide/"
+    },
+    {
+     "name": "GTA Wiki — trophies",
+     "url": "https://gta.fandom.com/wiki/Trophies_in_GTA_VI"
+    }
+   ]
   },
   {
    "id": 42,
    "name": "The Goodtime State",
    "description": "Explore all of Leonida.",
    "grade": "bronze",
-   "guide": "Explore all 52 areas of Leonida."
+   "hidden": false,
+   "kind": "collectibles",
+   "missable": false,
+   "stage": 5,
+   "hours": 1.2,
+   "guide": "Exploration is fog-of-war: drive or fly through every region of Leonida until the map's uncovered areas are gone. The trophy checks regions, not individual streets, so a fast plane pass over the edges is enough. Nothing is missable. PowerPyx's collectibles map shows the region borders.",
+   "steps": [
+    "Open the map and find the fogged regions",
+    "Drive or fly through every region edge",
+    "Cover the map until no fog remains"
+   ],
+   "sources": [
+    {
+     "name": "PowerPyx — collectibles map",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-all-collectibles-locations/"
+    },
+    {
+     "name": "PowerPyx — 100% checklist",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-100-percent-completion-guide/"
+    }
+   ]
   },
   {
    "id": 43,
    "name": "Pest Control",
    "description": "Rob an Illegal Operation belonging to each gang.",
    "grade": "bronze",
-   "guide": "Rob one illegal operation of each of the 9 gangs."
+   "hidden": false,
+   "kind": "activities",
+   "missable": false,
+   "stage": 6,
+   "hours": 1.2,
+   "guide": "Each gang runs an illegal operation, and the trophy wants one robbery of each gang's operation rather than every outpost. Identify the operations on the map, hit one per gang and escape. They are repeatable and nothing expires. PowerPyx's activities guide lists the gangs and their operations.",
+   "steps": [
+    "Identify each gang's illegal operation on the map",
+    "Rob one operation per gang",
+    "Escape and repeat for the next gang"
+   ],
+   "sources": [
+    {
+     "name": "PowerPyx — activities guide",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-activities-guide/"
+    },
+    {
+     "name": "GTA Wiki — trophies",
+     "url": "https://gta.fandom.com/wiki/Trophies_in_GTA_VI"
+    }
+   ]
   },
   {
    "id": 44,
    "name": "In The Beginning…",
    "description": "Enjoy a cocktail with a view on Ocean Beach.",
    "grade": "bronze",
-   "guide": "Have a cocktail with a view on Ocean Beach."
+   "hidden": true,
+   "kind": "story",
+   "missable": true,
+   "stage": 4,
+   "hours": 0.2,
+   "missableNote": "One-time story scene on Ocean Beach; walk past the prompt and it is gone for the save.",
+   "guide": "During the early Ocean Beach story scene you are offered a cocktail on a rooftop; accept it and finish the view before the mission moves on. The prompt is easy to walk past, and the scene does not repeat. IGN's walkthrough notes the exact moment in the mission.",
+   "steps": [
+    "Play the early Ocean Beach story scene",
+    "Accept the cocktail on the rooftop",
+    "Finish the view before the mission moves on"
+   ],
+   "sources": [
+    {
+     "name": "PowerPyx — trophy roadmap",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/"
+    },
+    {
+     "name": "IGN — walkthrough",
+     "url": "https://www.ign.com/wikis/grand-theft-auto-6/Walkthrough"
+    }
+   ]
   },
   {
    "id": 45,
    "name": "Capital Offense",
    "description": "Smash your way out of a vehicle showroom in classic style.",
    "grade": "bronze",
-   "guide": "Smash out of a vehicle showroom in style."
+   "hidden": true,
+   "kind": "story",
+   "missable": true,
+   "stage": 4,
+   "hours": 0.2,
+   "missableNote": "One-time story set piece; the showroom cannot be re-entered later.",
+   "guide": "The showroom scene is a story set piece: take the car and smash out through the glass rather than reversing out of the door. The trophy fires on the smash, and the scene does not come back once the mission ends. GTA Series Videos' walkthrough shows the showroom's layout.",
+   "steps": [
+    "Reach the vehicle showroom story scene",
+    "Take the car and aim at the glass front",
+    "Smash out through the window"
+   ],
+   "sources": [
+    {
+     "name": "PowerPyx — trophy roadmap",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/"
+    },
+    {
+     "name": "YouTube — GTA Series Videos",
+     "url": "https://www.youtube.com/@GTAseriesVideos"
+    }
+   ]
   },
   {
    "id": 46,
    "name": "Let’s Go Bowling",
    "description": "Follow-through at the Kolt & Associates' bowling alley.",
    "grade": "bronze",
-   "guide": "Play bowling at the Kolt & Associates alley."
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "stage": 4,
+   "hours": 0.3,
+   "guide": "Kolt & Associates' bowling alley hosts a bowling minigame; play a full game and follow through on your throws. The trophy is for finishing the game, not for a perfect score. The alley stays open after the story, so it is not missable. PowerPyx's activities guide covers the scoring.",
+   "steps": [
+    "Visit Kolt & Associates' bowling alley",
+    "Start a full game",
+    "Follow through on your throws to the end"
+   ],
+   "sources": [
+    {
+     "name": "PowerPyx — activities guide",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-activities-guide/"
+    },
+    {
+     "name": "GTA Wiki — trophies",
+     "url": "https://gta.fandom.com/wiki/Trophies_in_GTA_VI"
+    }
+   ]
   },
   {
    "id": 47,
    "name": "Personal Best",
    "description": "A partnership with mass appeal.",
    "grade": "bronze",
-   "guide": "A partnership moment with mass appeal."
+   "hidden": true,
+   "kind": "story",
+   "missable": true,
+   "stage": 4,
+   "hours": 0.2,
+   "missableNote": "Exclusive branch choice; the other branch needs a reload or a second playthrough.",
+   "guide": "A partnership choice late in the story determines how much public backing you carry, and the trophy is for the mass-appeal option. The two branches are exclusive, so pick the option that puts the partnership in the spotlight. Keep a save before the choice to see both. PowerPyx's roadmap names the branch.",
+   "steps": [
+    "Keep a manual save before the partnership choice",
+    "Pick the option that puts the partnership in the spotlight",
+    "The trophy pops when the branch resolves"
+   ],
+   "sources": [
+    {
+     "name": "PowerPyx — trophy roadmap",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/"
+    },
+    {
+     "name": "GTA Wiki — trophies",
+     "url": "https://gta.fandom.com/wiki/Trophies_in_GTA_VI"
+    }
+   ]
   },
   {
    "id": 48,
    "name": "Actions Speak Louder",
    "description": "Choices made (for better or worse).",
    "grade": "bronze",
-   "guide": "Make choices (PSN tracks a count to 500)."
+   "hidden": true,
+   "kind": "story",
+   "missable": true,
+   "stage": 4,
+   "hours": 0.2,
+   "missableNote": "Branch choice in the late story; easy to skip in a rushed dialogue.",
+   "guide": "A story choice with lasting consequences awards this trophy when you commit to it, whichever way you lean. The trophy is tied to making the choice, not to a specific outcome, but it is easy to skip if you rush the dialogue. IGN's walkthrough lists the prompt.",
+   "steps": [
+    "Play the late-story dialogue scene",
+    "Commit to the choice rather than backing out",
+    "Trophy pops when the choice resolves"
+   ],
+   "sources": [
+    {
+     "name": "PowerPyx — trophy roadmap",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/"
+    },
+    {
+     "name": "IGN — walkthrough",
+     "url": "https://www.ign.com/wikis/grand-theft-auto-6/Walkthrough"
+    }
+   ]
   },
   {
    "id": 49,
    "name": "Bad Luck, I Guess",
    "description": "Second time's the charm.",
    "grade": "bronze",
-   "guide": "Succeed on a second try."
+   "hidden": true,
+   "kind": "story",
+   "missable": true,
+   "stage": 4,
+   "hours": 0.4,
+   "missableNote": "Requires a first failure; a clean first-time success skips the trophy for that save.",
+   "guide": "This one is for a second attempt: fail the relevant heist or job once, then succeed on the retry. If you clear it first time, the trophy does not fire, so deliberately botch the first run. Keep a save before the job so you can set it up. PSNProfiles' guide flags the same trick.",
+   "steps": [
+    "Keep a save before the relevant job",
+    "Deliberately fail the first attempt",
+    "Succeed on the retry for the trophy"
+   ],
+   "sources": [
+    {
+     "name": "PSNProfiles — trophy guide",
+     "url": "https://psnprofiles.com/guide/21000-grand-theft-auto-vi-trophy-guide"
+    },
+    {
+     "name": "PowerPyx — trophy roadmap",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-trophy-guide-roadmap/"
+    }
+   ]
   },
   {
    "id": 50,
    "name": "The Truth Is Out There",
    "description": "What the hell just happened?",
    "grade": "bronze",
-   "guide": "Witness something strange."
+   "hidden": true,
+   "kind": "story",
+   "missable": false,
+   "stage": 4,
+   "hours": 0.6,
+   "guide": "A secret encounter in the backcountry is the trigger: follow the odd signal or rumour until the scene plays out, and the trophy is the reward for seeing it through. It is hidden on PlayStation for a reason, so avoid spoiling it. PowerPyx's collectibles map gives the location and the trigger.",
+   "steps": [
+    "Follow the odd signal rumour in the backcountry",
+    "Reach the secret encounter's location",
+    "See the scene through to its end"
+   ],
+   "sources": [
+    {
+     "name": "PowerPyx — collectibles map",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-all-collectibles-locations/"
+    },
+    {
+     "name": "GTA Wiki — trophies",
+     "url": "https://gta.fandom.com/wiki/Trophies_in_GTA_VI"
+    }
+   ]
   },
   {
    "id": 51,
    "name": "Ten Pin",
    "description": "Bowl 'em over with a melee drive-by.",
    "grade": "bronze",
-   "guide": "Knock someone down with a melee drive-by."
+   "hidden": false,
+   "kind": "activities",
+   "missable": false,
+   "stage": 5,
+   "hours": 0.2,
+   "guide": "Melee drive-bys count when you strike a pedestrian from a moving vehicle with a melee weapon; bowl one over and the trophy pops. The beach promenade has the densest foot traffic and the lowest police attention. It is repeatable and nothing is missable. PowerPyx's activities guide suggests the spot.",
+   "steps": [
+    "Get a melee weapon and a vehicle",
+    "Drive along the beach promenade",
+    "Strike a pedestrian from the moving vehicle"
+   ],
+   "sources": [
+    {
+     "name": "PowerPyx — activities guide",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-activities-guide/"
+    },
+    {
+     "name": "IGN — trophy list & wiki",
+     "url": "https://www.ign.com/wikis/grand-theft-auto-6/Trophies"
+    }
+   ]
   },
   {
    "id": 52,
    "name": "Dime on the Dollar",
    "description": "Earn $250,000 laundering Marked Bills through your contacts.",
    "grade": "bronze",
-   "guide": "Launder $250,000 of marked bills."
+   "hidden": false,
+   "kind": "activities",
+   "missable": false,
+   "stage": 6,
+   "hours": 1.2,
+   "count": 250000,
+   "countUnit": "dollars",
+   "guide": "Marked Bills have to be laundered through your contacts until $250,000 has been cleaned. Use the contact with the best rate and keep the money moving in batches; the counter is in the business menu. Nothing is missable, it is just a cash grind. PowerPyx's activities guide explains the rates.",
+   "steps": [
+    "Collect Marked Bills from the story jobs",
+    "Use the contact with the best laundering rate",
+    "Clean $250,000 in batches"
+   ],
+   "sources": [
+    {
+     "name": "PowerPyx — activities guide",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-activities-guide/"
+    },
+    {
+     "name": "GTA Wiki — trophies",
+     "url": "https://gta.fandom.com/wiki/Trophies_in_GTA_VI"
+    }
+   ]
   },
   {
    "id": 53,
    "name": "Treat Yo Self",
    "description": "Spend $100,000 across all shops.",
    "grade": "bronze",
-   "guide": "Spend $100,000 in shops."
+   "hidden": false,
+   "kind": "activities",
+   "missable": false,
+   "stage": 6,
+   "hours": 0.8,
+   "count": 100000,
+   "countUnit": "dollars",
+   "guide": "Spending counts across every shop, so buy clothes, weapon upgrades and vehicle parts rather than saving the cash. The pause-menu stats page tracks the total, and $100,000 arrives quickly once the properties are open. Nothing is missable. PowerPyx's 100% checklist lists the shops that count.",
+   "steps": [
+    "Buy clothes, weapon upgrades and vehicle parts",
+    "Spread purchases across different shops",
+    "Spend $100,000 in total"
+   ],
+   "sources": [
+    {
+     "name": "PowerPyx — activities guide",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-activities-guide/"
+    },
+    {
+     "name": "PowerPyx — 100% checklist",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-100-percent-completion-guide/"
+    }
+   ]
   },
   {
    "id": 54,
    "name": "Little Boxes",
    "description": "Purchase all garage properties.",
    "grade": "bronze",
-   "guide": "Buy all 8 garage properties."
+   "hidden": false,
+   "kind": "activities",
+   "missable": false,
+   "stage": 6,
+   "hours": 2,
+   "guide": "Every garage property on the map has to be bought, and the total runs into serious money. Finish the story's bigger scores first, then buy the cheapest garages early so the property income helps with the rest. Nothing is missable. PowerPyx's 100% checklist lists the prices.",
+   "steps": [
+    "Finish the story's bigger scores first",
+    "Buy the cheapest garages early for income",
+    "Purchase every garage property on the map"
+   ],
+   "sources": [
+    {
+     "name": "PowerPyx — activities guide",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-activities-guide/"
+    },
+    {
+     "name": "PowerPyx — 100% checklist",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-100-percent-completion-guide/"
+    }
+   ]
   },
   {
    "id": 55,
    "name": "On the Spot",
    "description": "Register 10 vehicles to the Scooter Bros app.",
    "grade": "bronze",
-   "guide": "Register 10 vehicles in the Scooter Bros app."
+   "hidden": false,
+   "kind": "activities",
+   "missable": false,
+   "stage": 5,
+   "hours": 0.8,
+   "count": 10,
+   "countUnit": "vehicles",
+   "guide": "The Scooter Bros app registers a vehicle when you park it and add it through the phone; register 10 different vehicles to finish. Cheap scooters and street bikes count, so buy or steal them rather than saving for supercars. Nothing is missable. PowerPyx's activities guide walks through the menu.",
+   "steps": [
+    "Open Scooter Bros on the phone",
+    "Park a vehicle and register it through the app",
+    "Register 10 different vehicles"
+   ],
+   "sources": [
+    {
+     "name": "PowerPyx — activities guide",
+     "url": "https://www.powerpyx.com/grand-theft-auto-6-activities-guide/"
+    },
+    {
+     "name": "GTA Wiki — trophies",
+     "url": "https://gta.fandom.com/wiki/Trophies_in_GTA_VI"
+    }
+   ]
   }
  ]
 }
