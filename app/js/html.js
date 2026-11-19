@@ -1,4 +1,4 @@
-// Tiny helpers for building markup safely.
+// Markup helpers: HTML escaping, plus the host and path shown for a source URL.
 export function esc(value) {
   return String(value ?? '').replace(/[&<>"']/g, (char) => ({
     '&': '&amp;',

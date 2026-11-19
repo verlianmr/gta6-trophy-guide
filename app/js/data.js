@@ -1,4 +1,4 @@
-// Loads app/data/trophies.json and normalises it once: every renderer reads this shape.
+// Fetches trophies.json once and normalises every trophy, stage and source into the single shape the renderers share.
 const DATA_URL = 'data/trophies.json';
 
 export const GRADES = ['platinum', 'gold', 'silver', 'bronze'];

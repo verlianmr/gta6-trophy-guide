@@ -1,5 +1,4 @@
-// The single source of truth: progress, settings, filters and the selected trophy.
-// Everything persists to localStorage; renderers subscribe and redraw themselves.
+// The app's state and its only writer: progress, filters and settings, saved to localStorage and pushed to subscribers.
 const STORAGE_KEY = 'leonida-ledger.v1';
 const listeners = new Set();
 

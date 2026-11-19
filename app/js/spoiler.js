@@ -1,5 +1,4 @@
-// The spoiler shield: story trophy names, descriptions and guides stay hidden until earned.
-// The setting is persisted with the rest of the progress.
+// Decides when a story trophy is masked, and wires the header switch that turns the spoiler shield on and off.
 import { state, subscribe, update } from './store.js';
 
 export function isMasked(trophy, s = state) {

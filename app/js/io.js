@@ -1,5 +1,4 @@
-// Export, import and reset. A progress file is plain JSON: trophy names and ids,
-// plus the spoiler setting, so it can be read and edited by hand.
+// Progress export, import and reset: plain hand-editable JSON, the toasts, and the two-step reset confirmation.
 import { state, setEarned, update } from './store.js';
 import { normaliseName } from './data.js';
 

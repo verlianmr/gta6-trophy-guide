@@ -1,5 +1,4 @@
-/* Leonida Ledger — an original, offline look for the GTA VI trophy guide.
-   Palette: midnight violet, hot pink and teal; no game artwork, no external fonts or images. */
+/* The entry's only stylesheet: one dark theme for the shell, list, detail, roadmap and progress views, plus a responsive pass. */
 
 :root {
   --bg: #08070d;

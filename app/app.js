@@ -1,5 +1,4 @@
-// Boots the guide: load the data, restore saved progress and URL state,
-// wire the views, filters, spoiler shield and keyboard, then render.
+// Entry module: loads the data, restores saved and URL state, starts every view, and keeps header, tabs and URL in step.
 import { loadData, KINDS, formatHours } from './js/data.js';
 import { state, loadSaved, save, update, emit, subscribe, toggleEarned } from './js/store.js';
 import { initFilters, visible } from './js/filters.js';

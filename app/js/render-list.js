@@ -1,4 +1,4 @@
-// The checklist: one row per trophy, with grade, kind, count, stage and the missable flag.
+// Draws the checklist rows and the "n shown" counter, and keeps the selected row in view.
 import { state, subscribe, toggleEarned, update } from './store.js';
 import { visible } from './filters.js';
 import { isMasked } from './spoiler.js';

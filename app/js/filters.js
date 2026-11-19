@@ -1,5 +1,4 @@
-// Search, kind/grade chips, the missable toggle and sorting.
-// visible() is the one place that decides which trophies the checklist shows.
+// Search, kind/grade chips, the missable toggle and sorting; visible() is the single gate the list and detail pane read.
 import { state, subscribe, update } from './store.js';
 import { GRADES, KINDS, KIND_LABELS, gradeLabel } from './data.js';
 

@@ -1,5 +1,4 @@
-// The roadmap: six stages in earning order, with counts, time estimates and
-// every missable window built from the official descriptions.
+// Draws the roadmap tab: six stage cards in earning order, with counts, hours and every missable window.
 import { state, subscribe } from './store.js';
 import { isMasked } from './spoiler.js';
 import { formatHours } from './data.js';

@@ -1,5 +1,4 @@
-// The progress view: completion, grade and stage breakdowns, next up,
-// export/import, the spoiler setting and the source list.
+// Draws the progress tab: completion, grade and stage breakdowns, next up, export/import, the spoiler switch and sources.
 import { state, subscribe, update } from './store.js';
 import { formatHours, gradeLabel } from './data.js';
 import { isMasked } from './spoiler.js';

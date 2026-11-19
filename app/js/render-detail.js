@@ -1,5 +1,4 @@
-// The detail panel beside the checklist: the official description, our guide,
-// the route, the missable window and the cited sources.
+// Draws the detail pane for the selected trophy: description, guide, route, missable window, sources and neighbours.
 import { state, subscribe, toggleEarned, update } from './store.js';
 import { visible } from './filters.js';
 import { isMasked } from './spoiler.js';
